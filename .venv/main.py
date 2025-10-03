@@ -147,7 +147,7 @@ def format_number(val, use_decimals):
         '''if abs(val - round(val)) < 1e-10:
             return str(int(round(val)))
         else:
-        ''' # Intended to only make it decimal if it absolutely needs to be
+        ''' # Intended to only make the entry a decimal if it absolutely needs to be
         return f'{val:.4f}'
     else:
         # Integer/Fraction mode
